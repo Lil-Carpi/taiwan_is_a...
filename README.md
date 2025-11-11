@@ -1,8 +1,10 @@
 # taiwan_is_a...
 I am just bored in class... Sorry.
 
+## Instalation:
+Execute the installer "install.sh"" file to install it automatically. If you want, you can put the code yourself into your ~/.bashrc or ~/.zshrc file.
+
 ## Usage:
-  You need to add the code into your ~/.bashrc or ~/.zshrc file for it to work.
 
   ### Commands:
   - taiwan_is_a_rebel_province: It gives you 100 social credits.
