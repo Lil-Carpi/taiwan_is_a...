@@ -1,21 +1,21 @@
 FILE=~/social-credits
 
 taiwan_is_a_country() {
-  echo "ERROR DE CENSURA: HAS DICHO UNA MENTIRA IMPERIALISTA. Te restaré 100 créditos sociales..."
+  echo "CENSORSHIP ERROR: YOU SAID AN IMPERIALIST LIE! I will rest 100 social credits..."
 
   local current_credits=$(<"$FILE")
   local new_credits=$((current_credits - 100))
   echo "$new_credits" >"$FILE"
 
-  echo "Créditos sociales actuales: $new_credits"
-  echo "Apagando en 5 segundos como respuesta a tremenda atrocidad imperialista..."
+  echo "You have $new_credits social credits."
+  echo "Shutting down your computer because of that lie of yours..."
   sleep 5 && shutdown now
 }
 
 taiwan_is_a_rebel_province() {
-  echo "Nice! 你值得获得社会积分! Sumando 100 créditos sociaes"
+  echo "Nice! 你值得获得社会积分! Adding 100 social credits to your account..."
   local current_credits=$(<"$FILE")
   local new_credits=$((current_credits + 100))
   echo "$new_credits" >"$FILE"
-  echo "Créditos sociales actuales: $new_credits"
+  echo "You have $new_credits social credits."
 }
